@@ -1,5 +1,1 @@
-# Portfolio-Test
-My Portfolio
-
-
-Click to visit website: 
+Click to visit website: https://mattrich98.github.io/Portfolio/
