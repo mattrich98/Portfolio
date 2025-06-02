@@ -1,3 +1,3 @@
-Click to visit website: https://mattrich98.github.io/Old-Outdated-Portfolio/
+Its outdated currently, but I plan to remake this with HTML and CSS, https://matthewrichardson120.wixsite.com/portfolio
 <br>
-In the future, I plan to create and upload a new portfolio site.
+Then add changes after
