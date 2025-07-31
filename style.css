@@ -12,6 +12,7 @@
 }
 
 .buttonNav:hover {
+	opacity: 60%;
 	text-decoration: underline;
 }
 
@@ -111,7 +112,7 @@
 }
 
 body {
-	background-color: rgb(66, 66, 66);
+	background-color: #2acaf1;
 	overflow-x: hidden;
 }
 
