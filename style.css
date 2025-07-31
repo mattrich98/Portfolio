@@ -69,19 +69,16 @@
 	margin-top: 10px;
 }
 
-.about{
-background-image: url('images/greybrickwall.jpg');
+.about {
+	background-image: url('images/greybrickwall.jpg');
 	text-align: center;
 	height: 706px;
-
 	min-width: 200px;
-
-
 	padding-left: 5%;
 	padding-right: 5%;
 }
 
-.subTopAbout{
+.subTopAbout {
 	font-size: 35px;
 	text-shadow: 1px 5px 0px #045f9a;
 	font-weight: 600;
@@ -95,7 +92,7 @@ background-image: url('images/greybrickwall.jpg');
 	min-width: 200px;
 	margin-top: 5px;
 	margin-left: 38%;
-	margin-right: 38%;
+	margin-right: 38%; /*Mess around with min - max settings */
 	padding-top: 1%;
 	padding-bottom: 1%;
 	padding-left: 5%;
