@@ -67,7 +67,6 @@
 	border-radius: 50px;
 	border: 2px solid white;
 	margin-top: 10px;
-	margin-bottom: 10px;
 }
 
 .about{
@@ -75,16 +74,34 @@
 	border: 2px solid white;
 	color: white;
 	text-align: center;
-	height: 400px;
+	height: 600px;
     border-radius: 50px;
 	min-width: 200px;
     margin-top: 30px;
-	margin-left: 10%;
+	margin-left: 30%;
     margin-bottom: 30px;
-	margin-right: 10%;
+	margin-right: 30%;
 	padding-left: 5%;
-	padding-right: 5%
-	
+	padding-right: 5%;
+	display: flex;
+	flex-direction: column;
+}
+
+.subAbout{
+    background-color: #0884dc;
+	border: 2px solid white;
+	color: white;
+	text-align: center;
+	height: 50px;
+    border-radius: 50px;
+	min-width: 200px;
+    margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 1%;
+	padding-left: 20%;
+	padding-right: 20%
 }
 
 .projects {
