@@ -154,15 +154,9 @@ background-image: url('images/greybrickwall.jpg');
     background-image: linear-gradient(#10101a, #272a42);
 	color: white;
 	text-align: center;
-	height: 2500px;
-    border-radius: 50px;
+	height: 350px;
 	min-width: 200px;
-    margin-top: 30px;
-	margin-left: 10%;
-    margin-bottom: 30px;
-	margin-right: 10%;
-	padding-left: 5%;
-	padding-right: 5%
+	padding-top: 40px;
 }
 
 .intro {
@@ -178,22 +172,15 @@ body {
 	overflow-x: hidden;
 }
 
-.projects {
-	height: 350px;
-    background-color: #09090e99;
-	border: solid white 0px;
-    border-radius: 50px;
-	padding-top: 50px;
-    padding-bottom: 50px;
-	margin-left: 6%;
-	margin-right: 6%;
-}
+
 
 .projectSquare {
 	height: 150px;
 	width: 150px;
     border: solid white 2px;
     border-radius: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .projectSquare:hover {
