@@ -26,6 +26,7 @@
 	align-items: center;
 	vertical-align: middle;
 	justify-content: center;
+	position: fixed;
 }
 
 #intro { 
@@ -33,7 +34,7 @@
 	background-color: #0884dc;
 	line-height: 55px;
 	text-align: center;
-	padding: 30px 17px 30px 17px;
+	padding: 130px 17px 30px 17px;
 }
 
 #intro #name{
