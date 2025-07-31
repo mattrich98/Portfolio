@@ -69,8 +69,6 @@
 	margin-top: 10px;
 }
 
-
-
 .about{
 background-image: url('images/greybrickwall.jpg');
 	text-align: center;
@@ -196,4 +194,9 @@ body {
 	width: 150px;
     border: solid white 2px;
     border-radius: 20px;
+}
+
+.projectSquare:hover {
+	transition: 0.15s;
+	opacity: 50%;
 }
