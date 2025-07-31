@@ -1,0 +1,134 @@
+* {
+	Margin: 0px;
+	font-family: Arial;
+}
+
+.buttonNav {
+	font-size: 20px;
+	color: white;
+	padding: 12px 17px 12px 17px;
+	text-decoration: none;
+	
+}
+
+.buttonNav:hover {
+	text-decoration: underline;
+}
+
+.nav-bar {
+	background-color: #080c34;
+	color: white;
+	font-size: 20px;
+	height: 100px;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
+	justify-content: center;
+}
+
+#intro { 
+	color: white;
+	background-color: #0884dc;
+	line-height: 55px;
+	text-align: center;
+	padding: 30px 17px 30px 17px;
+}
+
+#intro #name{
+	font-size: 50px;
+	text-shadow: 1px 5px 0px #045f9a;
+}
+
+
+#titleBorder { 
+	color: white;
+	background-color: #0884dc;
+	line-height: 55px;
+	text-align: center;
+	padding: 7px 17px 7px 17px;
+}
+
+#titleBorder #borderName{
+	font-size: 35px;
+	text-shadow: 1px 5px 0px #045f9a;
+}
+
+#intro h2{
+	font-size: 25px;
+	font-weight: 500;
+	text-shadow: 1px 3px 0px #045f9a;
+}
+
+#profilePhoto {
+	height: 220px;
+	width: 220px;
+	border-radius: 50px;
+	border: 2px solid white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.about{
+    background-color: #0884dc;
+	border: 2px solid white;
+	color: white;
+	text-align: center;
+	height: 400px;
+    border-radius: 50px;
+	min-width: 200px;
+    margin-top: 30px;
+	margin-left: 10%;
+    margin-bottom: 30px;
+	margin-right: 10%;
+	padding-left: 5%;
+	padding-right: 5%
+	
+}
+
+.projects {
+	/*background-color: #252529;*/
+    background-image: linear-gradient(#10101a, #272a42);
+	color: white;
+	text-align: center;
+	height: 2500px;
+    border-radius: 50px;
+	min-width: 200px;
+    margin-top: 30px;
+	margin-left: 10%;
+    margin-bottom: 30px;
+	margin-right: 10%;
+	padding-left: 5%;
+	padding-right: 5%
+}
+
+.intro {
+	text-align: center;
+	/*border: solid 1px white;*/
+	margin-left: 6%;
+	margin-right: 6%;
+    padding: 0.7% 0.7% 0.7% 0.7%;
+}
+
+body {
+	background-color: rgb(66, 66, 66);
+	overflow-x: hidden;
+}
+
+.projects {
+	height: 350px;
+    background-color: #09090e99;
+	border: solid white 0px;
+    border-radius: 50px;
+	padding-top: 50px;
+    padding-bottom: 50px;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+.projectSquare {
+	height: 150px;
+	width: 150px;
+    border: solid white 2px;
+    border-radius: 20px;
+}
