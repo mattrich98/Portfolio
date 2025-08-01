@@ -27,6 +27,7 @@
 	vertical-align: middle;
 	justify-content: center;
 	position: fixed;
+	border-bottom: solid white 1px;
 }
 
 #intro { 
