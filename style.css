@@ -69,7 +69,8 @@
 	border-radius: 220px;
 	border: 2px solid white;
 	margin-top: 13px;
-	pointer-events: none
+	pointer-events: none;
+	user-select: none;
 }
 
 .about {
