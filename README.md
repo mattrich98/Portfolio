@@ -12,3 +12,5 @@ when a section is clicked, it will be greyed out like when you hover over it in 
 Want to try and do most things with HTML and CSS unless I really have to us JavaScript.
 
 But I might not do some things, because if I can't click/press something on a mobile device
+
+Change background image as takes long to load
