@@ -14,3 +14,5 @@ Want to try and do most things with HTML and CSS unless I really have to us Java
 But I might not do some things, because if I can't click/press something on a mobile device
 
 Change background image as takes long to load
+
+Make navigation bar smaller, to position about me area to middle 
