@@ -4,8 +4,8 @@
 }
 
 .buttonNav {
-	font-size: 20px;
 	color: white;
+	font-size: 17px;
 	padding: 12px 17px 12px 17px;
 	text-decoration: none;
 	
@@ -17,26 +17,26 @@
 }
 
 .nav-bar {
-	background-color: #080c34;
-	color: white;
-	font-size: 20px;
-	height: 100px;
-	width: 100vw;
-	display: flex;
 	align-items: center;
-	vertical-align: middle;
+	background-color: #080c34;
+	border-bottom: solid white 1px;
+	color: white;
+	display: flex;
+	font-size: 20px;
+	height: 60px;
 	justify-content: center;
 	position: fixed;
-	border-bottom: solid white 1px;
+	vertical-align: middle;
+	width: 100vw;
 }
 
 #intro { 
-	color: white;
 	background-color: #0884dc;
+	color: white;
 	line-height: 55px;
-	text-align: center;
 	padding: 140px 17px 30px 17px;
 	pointer-events: none;
+	text-align: center;
 	user-select: none;
 }
 
@@ -47,12 +47,12 @@
 
 
 #titleBorder { 
-	color: white;
 	background-color: #0884dc;
+	color: white;
 	line-height: 55px;
-	text-align: center;
 	padding: 7px 17px 7px 17px;
-	pointer-events: none;
+		pointer-events: none;
+	text-align: center;
 	user-select: none;
 }
 
@@ -64,48 +64,46 @@
 #intro h2{
 	font-size: 25px;
 	font-weight: 500;
-	text-shadow: 1px 3px 0px #045f9a;
 	pointer-events: none;
+	text-shadow: 1px 3px 0px #045f9a;
 	user-select: none;
 }
 
 #profilePhoto {
-	height: 220px;
-	width: 220px;
 	border-radius: 220px;
 	border: 2px solid white;
+	height: 220px;
 	margin-top: 13px;
 	pointer-events: none;
 	user-select: none;
+	width: 220px;
 }
 
 .about {
 	background-image: url('images/greybrickwall.jpg');
-	text-align: center;
 	height: 640px;
 	min-width: 200px;
 	padding-left: 5%;
 	padding-right: 5%;
+	text-align: center;
 }
 
 .subTopAbout {
-	font-size: 35px;
-	text-shadow: 1px 5px 0px #045f9a;
-	font-weight: 600;
     background-color: #0884dc;
-	color: rgb(255, 255, 255);
-
-	border: 2px solid white;
-	text-align: center;
-
     border-radius: 50px 50px 0px 0px;
-    margin-top: 8px;
+	border: 2px solid white;
+	color: rgb(255, 255, 255);
+	font-size: 35px;
+	font-weight: 600;
 	margin-bottom: 8px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 400px;
+    margin-top: 8px;
 	pointer-events: none;
+	text-align: center;
+	text-shadow: 1px 5px 0px #045f9a;
 	user-select: none;
+	width: 400px;
 }
 
 .subMidAbout{
@@ -113,33 +111,29 @@
 	border: 2px solid white;
 	color: black;
 	font-weight: 600;
-	text-align: center;
 	height: 75px;
-
-	padding-top: 20px;
-	margin-top: 8px;
 	margin-bottom: 8px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 400px
-}
+	margin-top: 8px;
+	padding-top: 20px;
+	text-align: center;
+	width: 400px}
 
 .subBottomAbout{
     background-color: #ffffff;
+    border-radius: 0px 0px 50px 50px;
 	border: 2px solid white;
 	color: black;
 	font-weight: 600;
-	text-align: center;
 	height: 85px;
-    border-radius: 0px 0px 50px 50px;
-
-	padding-top: 20px;
-    margin-top: 8px;
 	margin-bottom: 8px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 400px
-}
+    margin-top: 8px;
+	padding-top: 20px;
+	text-align: center;
+	width: 400px}
 
 .subProfile{
     background-color: #ffffff;
@@ -154,22 +148,22 @@
 .projects {
 	/*background-color: #252529;*/
     background-image: linear-gradient(#10101a, #242950);
+	border-bottom: solid grey 1px;
+	border-top: solid grey 1px;
 	color: white;
-	text-align: center;
 	height: 350px;
 	min-width: 200px;
 	padding-top: 40px;
-	border-top: solid grey 1px;
-	border-bottom: solid grey 1px;
+	text-align: center;
 	
 }
 
 .intro {
-	text-align: center;
 	/*border: solid 1px white;*/
 	margin-left: 6%;
 	margin-right: 6%;
     padding: 0.7% 0.7% 0.7% 0.7%;
+	text-align: center;
 }
 
 body {
@@ -180,28 +174,28 @@ body {
 
 
 .projectSquare {
-	height: 150px;
-	width: 150px;
-    border: solid white 2px;
     border-radius: 20px;
-	margin-right: 10px;
+    border: solid white 2px;
+	height: 150px;
 	margin-bottom: 10px;
+	margin-right: 10px;
+	width: 150px;
 }
 
 .projectSquare:hover {
-	transition: 0.15s;
 	opacity: 50%;
+	transition: 0.15s;
 }
 
 .contactContainer {
-	color: black;
-	font-weight: 600;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     align-content: center;
     align-items: center;
     background-color: #ffffff;
-    border: solid 0px;
     border-radius: 5px;
+    border: solid 0px;
+	color: black;
+    display: flex;
+    flex-direction: row;
+	font-weight: 600;
+    justify-content: space-evenly;
 }
