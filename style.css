@@ -22,12 +22,12 @@
 	border-bottom: solid white 1px;
 	color: white;
 	display: flex;
-	font-size: 20px;
+	width: 100%; /*100vw is the same thing*/
 	height: 60px;
 	justify-content: center;
 	position: fixed;
 	vertical-align: middle;
-	width: 100vw;
+	
 }
 
 #intro { 
@@ -47,11 +47,11 @@
 }
 
 #intro h2{
-	font-size: 22px;
+	font-size: clamp(15px, 4vw, 22px);
+	width: 100%;
 	font-weight: 500;
 	pointer-events: none;
 	text-shadow: 1px 3px 0px #045f9a;
-	user-select: none;
 }
 
 #titleBorder { 
