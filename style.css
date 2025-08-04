@@ -5,9 +5,12 @@
 
 .buttonNav {
 	color: white;
-	font-size: 17px;
-	padding: 12px 17px 12px 17px;
+	font-size: clamp(5px, 5.5vw, 17px);
+	padding: 12px 20px 12px 12px;
 	text-decoration: none;
+}
+
+.buttonNav #icon {
 	
 }
 
@@ -27,7 +30,6 @@
 	justify-content: center;
 	position: fixed;
 	vertical-align: middle;
-	
 }
 
 #intro { 
