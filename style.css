@@ -3,6 +3,11 @@
 	font-family: Arial;
 }
 
+body {
+	background-color: #000000;
+	overflow-x: hidden;
+}
+
 .buttonNav {
 	color: white;
 	font-size: clamp(3px, 3vw, 17px);
@@ -175,10 +180,7 @@
 	text-align: center;
 }
 
-body {
-	background-color: #2acaf1;
-	overflow-x: hidden;
-}
+
 
 
 
