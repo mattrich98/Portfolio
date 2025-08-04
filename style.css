@@ -71,7 +71,14 @@
 	text-shadow: 1px 5px 0px #045f9a;
 }
 
-
+.about {
+	background-image: url('images/greybrickwall.jpg');
+	height: 713px;
+	min-width: 200px;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+}
 
 #profilePhoto {
 	border-radius: 220px;
@@ -81,15 +88,6 @@
 	pointer-events: none;
 	user-select: none;
 	width: 220px;
-}
-
-.about {
-	background-image: url('images/greybrickwall.jpg');
-	height: 640px;
-	min-width: 200px;
-	padding-left: 5%;
-	padding-right: 5%;
-	text-align: center;
 }
 
 .subTopAbout {
