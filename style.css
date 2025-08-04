@@ -72,7 +72,9 @@
 }
 
 .about {
-	background-image: url('images/greybrickwall.jpg');
+	background-image: url('images/greybrickwall.jpg'); /*need url */
+	background-size: 300px 300px; /*set size of per*/
+	background-repeat: repeat; /*to repeat the background after size given */
 	height: 713px;
 	min-width: 200px;
 	padding-left: 5%;
