@@ -40,9 +40,18 @@
 	user-select: none;
 }
 
-#intro #name{
-	font-size: 47px;
-	text-shadow: 1px 5px 0px #045f9a;
+#intro #name {
+    font-size: clamp(37px, 5.5vw, 45px); /* Min: 18px, Preferred: 6vw, Max: 36px */
+    text-shadow: 1px 5px 0px #045f9a;
+	 width: 100%; /*use full width of panel */
+}
+
+#intro h2{
+	font-size: 22px;
+	font-weight: 500;
+	pointer-events: none;
+	text-shadow: 1px 3px 0px #045f9a;
+	user-select: none;
 }
 
 #titleBorder { 
@@ -60,13 +69,7 @@
 	text-shadow: 1px 5px 0px #045f9a;
 }
 
-#intro h2{
-	font-size: 22px;
-	font-weight: 500;
-	pointer-events: none;
-	text-shadow: 1px 3px 0px #045f9a;
-	user-select: none;
-}
+
 
 #profilePhoto {
 	border-radius: 220px;
