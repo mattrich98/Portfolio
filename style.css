@@ -84,11 +84,11 @@
 
 #profilePhoto {
 	border-radius: 220px;
-	height: clamp(35px, 35vw, 220px);
+	height: clamp(40px, 40vw, 220px);
 	margin-top: 13px;
 	pointer-events: none;
 	user-select: none;
-	width: clamp(35px, 35vw, 220px);
+	width: clamp(40px, 40vw, 220px);
 }
 
 .subProfile{
