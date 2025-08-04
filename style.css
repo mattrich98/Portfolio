@@ -33,18 +33,17 @@
 #intro { 
 	background-color: #0884dc;
 	color: white;
-	line-height: 55px;
-	padding: 140px 17px 30px 17px;
+	line-height: 50px;
+	padding: 85px 17px 20px 17px;
 	pointer-events: none;
 	text-align: center;
 	user-select: none;
 }
 
 #intro #name{
-	font-size: 50px;
+	font-size: 47px;
 	text-shadow: 1px 5px 0px #045f9a;
 }
-
 
 #titleBorder { 
 	background-color: #0884dc;
@@ -62,7 +61,7 @@
 }
 
 #intro h2{
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: 500;
 	pointer-events: none;
 	text-shadow: 1px 3px 0px #045f9a;
