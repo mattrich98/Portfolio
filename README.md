@@ -24,3 +24,5 @@ Clamps work to shrink the desktop window size to different sizes but, it doesn't
 I can still keep the clamps as it does benefit the website.
 
 I saw a video where you can make a carousel with HTML and CSS only so I want to try it
+
+I read something about making a website mobile first, first
