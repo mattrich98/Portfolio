@@ -26,3 +26,7 @@ I can still keep the clamps as it does benefit the website.
 I saw a video where you can make a carousel with HTML and CSS only so I want to try it
 
 I read something about making a website mobile first, first
+
+______________________________________________________________
+
+Will make carousel for experience and contact in home section; besides projects, then I don't need to come up with ideas for those.
