@@ -77,7 +77,7 @@ body {
 }
 
 .about {
-	background-image: url('images/backgroundoverlay.png'), url('images/greybrickwall.jpg'); /*need url */
+	background-image: url('images/backgroundoverlay.png'), url(''); /*need url */
 	background-size: 600px 500px, 600px 300px; /*overlay image sizes first, second is background behind overlay */
 	background-repeat: repeat; /*to repeat the background after size given */
     background-blend-mode: multiply; /*multiply effect like clip studio/photoshop */
@@ -89,6 +89,7 @@ body {
 	text-align: center;
 	background-blend-mode: multiply;
 	background-image : #666666;
+	background-color: #2a3155;
 }
 
 .aboutContainer {
