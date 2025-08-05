@@ -77,14 +77,26 @@ body {
 }
 
 .about {
-	background-image: url('images/greybrickwall.jpg'); /*need url */
-	background-size: 600px 300px; /*set size of per*/
+	background-image: url('images/backgroundoverlay.png'), url('images/greybrickwall.jpg'); /*need url */
+	background-size: 600px 500px, 600px 300px; /*overlay image sizes first, second is background behind overlay */
 	background-repeat: repeat; /*to repeat the background after size given */
+    background-blend-mode: multiply; /*multiply effect like clip studio/photoshop */
+    background-position: center, center; /*both images are centered */
 	height: 713px;
 	min-width: 200px;
 	padding-left: 5%;
 	padding-right: 5%;
 	text-align: center;
+	background-blend-mode: multiply;
+	background-image : #666666;
+}
+
+.aboutContainer {
+	background-color: rgba(0, 0, 0, 0.281);
+	height: 100%;
+	width: clamp(440px, 50vw, 1200px);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #profilePhoto {
