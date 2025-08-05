@@ -102,6 +102,10 @@ body {
 	background-color: #2a3155;
 }
 
+.about#expSection {
+	height: 400px;
+}
+
 .aboutContainer {
 	background-color: rgba(0, 0, 0, 0.281);
 	height: 100%;
@@ -182,10 +186,9 @@ body {
 	border-top: solid grey 1px;
 	color: white;
 	height: 350px;
-	min-width: 200px;
-	padding-top: 40px;
+	min-width: 690px;
+	padding-top: 35px;
 	text-align: center;
-	
 }
 
 .projectSquare {
