@@ -16,3 +16,5 @@ But I might not do some things, because if I can't click/press something on a mo
 Change background image as takes long to load
 
 Make navigation bar smaller, to position about me area to middle 
+
+realised need to use chrome device toolbar
