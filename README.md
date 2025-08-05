@@ -16,3 +16,11 @@ But I might not do some things, because if I can't click/press something on a mo
 Change background image as takes long to load
 
 Make navigation bar smaller, to position about me area to middle 
+
+realised need to use chrome device toolbar
+
+Clamps work to shrink the desktop window size to different sizes but, it doesn't change how it opens on other devices, so will look into that after doing other sections as tedious. 
+
+I can still keep the clamps as it does benefit the website.
+
+I saw a video where you can make a carousel with HTML and CSS only so I want to try it
