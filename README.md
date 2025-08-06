@@ -30,3 +30,5 @@ I read something about making a website mobile first, first
 ______________________________________________________________
 
 Will make carousel for experience and contact in home section; besides projects, then I don't need to come up with ideas for those.
+
+I would like to try the mobile-first approach to things
