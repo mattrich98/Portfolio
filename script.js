@@ -1,3 +1,8 @@
+
+
+
+
+
 /*
 Todo list:
 
@@ -13,7 +18,17 @@ Todo list:
 
 (BASIC END)
 
+-Use getelementbyid to select the burger menu
+
+variables needed:
+
+--need to store the getelementbyid burger menu in a variable, this will be what is adjusted.
+
+--maybe variable for the drop down menu, i plan to just put the text and html in it.
+
+--drop down menu will be made in javascript not HTML.
 
 
 
+That should be it for now, and I'll see how things go.
 */
