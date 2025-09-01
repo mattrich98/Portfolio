@@ -10,13 +10,13 @@ body {
 
 .buttonNav {
 	color: white;
-	font-size: clamp(3px, 3vw, 17px);
-	padding: 12px 11px 12px 11px;
+	font-size: clamp(35px, 3vw, 17px);
+	padding: 12px 11px 12px 10px;
 	text-decoration: none;
 }
 
 .buttonNav #icon {
-	width: 28px;
+	width: 80px;
 }
 
 .buttonNav:hover {
@@ -31,7 +31,7 @@ body {
 	color: white;
 	display: flex;
 	width: 100%; /*100vw is the same thing*/
-	height: 60px;
+	height: 120px;
 	justify-content: center;
 	position: fixed;
 	vertical-align: middle;
