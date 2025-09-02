@@ -16,9 +16,8 @@ body {
 }
 
 .buttonNav #icon {
-	width: 90px;
+	width: 75px;
 }
-
 
 .buttonNav:hover {
 	opacity: 60%;
@@ -38,10 +37,19 @@ body {
 	vertical-align: middle;
 }
 
+.BurgerIcon{
+	width: 90px;
+	height: 90px;
+	font-size: 70px;
+	margin-right: 20px;
+	position: relative
+}
+
 .barBox{
 	background-color: green;
+	margin-top: 175px;
 	height: 400px;
-	width: 400px;
+	width: 1000px;
 	text-align: center;
 	display: flex;
 	flex-direction:column;
