@@ -1,14 +1,37 @@
-let burgerMenu = document.getElementById();
-let dropDownMenu = document.getElementById();
+let burgerDropBox = false;
+let burgerMenu = true;
 
-
+console.log(burgerMenu);
 
 function burgerMenuOnClickToggle(){ 
-//Click Burger Menu, which will connect to dropDownBox function
+burgerMenu = !burgerMenu; //toggles between true and false
 
+if(burgerDropBox == false){
+    document.getElementById("BurgerIcon").innerHTML = "!";
+    document.getElementById("barBox").style.opacity = 100 + "%";
+    console.log("testing")
+}
+else{
+    document.getElementById("BurgerIcon").innerHTML = "≡";
+    console.log("testing2");
+}
+
+console.log(burgerMenu);
 }
 
 
+function fanON() {
+  fanStatus = !fanStatus;
+  if (fanStatus == true) {
+    document.getElementById("fanButton").style.backgroundColor = "green";
+    document.getElementById("fan").style.opacity = 20 + "%";
+    sunStrength -= 3;
+    document.getElementById("sunPercent").innerHTML = sunStrength;
+  } else {
+    document.getElementById("fanButton").style.backgroundColor = "white";
+    document.getElementById("fan").style.opacity = 0 + "%";
+  }
+}
 ////^^^^^^^^ this will be grouped into the function above, as it interacts with each other.
 
 function dropDownBox(){ 

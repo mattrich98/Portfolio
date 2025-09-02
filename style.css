@@ -36,8 +36,7 @@ body {
 	position: fixed;
 	vertical-align: middle;
 }
-
-.BurgerIcon{
+#BurgerIcon{
 	width: 90px;
 	height: 90px;
 	font-size: 70px;
@@ -45,7 +44,7 @@ body {
 	position: relative
 }
 
-.barBox{
+#barBox{
 	background-color: green;
 	margin-top: 175px;
 	height: 400px;
@@ -56,6 +55,7 @@ body {
 	justify-content:center;
 	position: fixed;
 	vertical-align: middle;
+	opacity: 0%;
 }
 
 #intro { 
