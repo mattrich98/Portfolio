@@ -47,7 +47,7 @@ body {
 }
 
 #barBox{
-	background-color: green;
+	background-color: rgb(43, 43, 43);
 	margin-top: 175px;
 	height: 600px;
 	width: 100%;
@@ -58,6 +58,8 @@ body {
 	position: fixed;
 	vertical-align: middle;
 	opacity: 0%;
+	border-top: white solid 1px;;
+	border-bottom: white solid 1px;
 }
 
 #intro { 
