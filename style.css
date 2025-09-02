@@ -70,22 +70,28 @@ body {
 #intro { 
 	background-color: #0884dc;
 	color: white;
-	line-height: 42px;
-	padding: 85px 17px 20px 17px;
+	padding: 210px 17px 50px 17px;
 	pointer-events: none;
 	text-align: center;
 	user-select: none;
 }
 
 #intro #name {
-    font-size: clamp(37px, 5.5vw, 45px); /* Min: 18px, Preferred: 6vw, Max: 36px */
+	/*font-size: clamp(100px, 5.5vw, 45px); /* Min: 18px, Preferred: 6vw, Max: 36px */
+    font-size: 130px; /* Min: 18px, Preferred: 6vw, Max: 36px */
     text-shadow: 1px 5px 0px #045f9a;
-	 width: 100%; /*use full width of panel */
+	line-height: 140px;
+	width: 100%; /*use full width of panel */
+	border-bottom: white solid 1px;
 }
 
 #intro h2{
-	font-size: clamp(5px, 4vw, 20px);
-	width: 100%;
+	/*font-size: clamp(5px, 4vw, 20px);*/
+	font-size: 65px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 100;
 	font-weight: 500;
 	pointer-events: none;
 	text-shadow: 1px 3px 0px #045f9a;
