@@ -4,7 +4,7 @@ Portfolio Link: https://mattrich98.github.io/Portfolio/
 
 Work in progress portfolio with a lot of things taken and remade from my old one: https://matthewrichardson120.wixsite.com/portfolio
 
--> It's big because the plan is to make the website mobile first. Then I'll try using rem sizes to make it look good on desktop too.
+-> It's big because the plan is to make the website mobile first. Then I'll try using rem sizes to make it look good on desktop too. + set max size for how big it can get
 
 I might try and make a carosel that you press to see each section instead of scrolling down, but I don't know if I can do it. (I will watch a tutorial)
 
