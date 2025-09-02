@@ -25,6 +25,8 @@ else if (burgerMenu === true){
 // What I may do is this: Add arrow button to side of about me blue part.
 //  it scrolls past exp -> job exp - > contact and recycle button to return to start.
 
+//It may need a click next label, or next section -> so its recognisable easily.
+
 //the way this will work is -> for each section, the about me card will change to match other things.
 
 //Maybe i'll add a label on the left to symbolise what section like my CV
