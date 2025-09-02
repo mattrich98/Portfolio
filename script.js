@@ -38,6 +38,18 @@ else if (burgerMenu === true){
 //NEW TODOS END REMINDER
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 //OTHER TODO PROBABLY FINAL:
 
 /*
