@@ -16,7 +16,9 @@ body {
 }
 
 .buttonNav #icon {
-	width: 75px;
+	width: 50px;
+	margin-left: 20px;
+	text-align: center;
 }
 
 .buttonNav:hover {
@@ -47,7 +49,7 @@ body {
 #barBox{
 	background-color: green;
 	margin-top: 175px;
-	height: 400px;
+	height: 600px;
 	width: 1000px;
 	text-align: center;
 	display: flex;
