@@ -64,6 +64,7 @@ body {
 	border-top: white solid 1px;
 	border-bottom: white solid 1px;
 	visibility: hidden;
+	opacity: 95%;
 }
 
 #intro { 
