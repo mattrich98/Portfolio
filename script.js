@@ -2,7 +2,16 @@ let burgerMenu = document.getElementById();
 let dropDownMenu = document.getElementById();
 
 
+function burgerMenuFunction(){
+}
 
+function burgerMenuOnClickToggle(){ //Click Burger Menu, which will connect to dropDownBox function
+
+}
+
+function dropDownBox(){
+
+}
 
 /*
 Todo list:
@@ -42,3 +51,4 @@ That should be it for now, and I'll see how things go.
 Maybe replace the inner.html text of the nav bar letters with an Open Menu button that switches between the two instead, somehow find a way to add an image
 - although having it in words makes it easier to know what it is
 */
+
