@@ -36,3 +36,22 @@ else if (burgerMenu === true){
 //card extends upwards, so I can write more information about specific sections
 
 //NEW TODOS END REMINDER
+
+
+//OTHER TODO PROBABLY FINAL:
+
+/*
+For the project section, I plan to make a 9x9 square for each project, like viewing images on X/Twitter.
+
+
+*/
+//OTHER TODO PROBABLY END
+
+/*EXTRA TODO:
+
+Optimize at least security game website for mobile too.
+
+
+
+
+EXTRA TODO END*/
