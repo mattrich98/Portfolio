@@ -13,6 +13,9 @@ else if (burgerMenu === true){
 }
 }
 
+
+//NEW TODOS REMINDER:
+
 //About me shifting section on click circle to change info
 
 // I will try to make a carousel menu with circle buttons you press.
@@ -28,3 +31,8 @@ else if (burgerMenu === true){
 
 
 //then I have projects on the bottom. That overtime will have a carousel.
+
+//to write more information on the card, I may make it so the profile photo dissapears, then the about me
+//card extends upwards, so I can write more information about specific sections
+
+//NEW TODOS END REMINDER
