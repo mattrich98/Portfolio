@@ -46,7 +46,6 @@ body {
 	text-align: center;
 	margin-right: 20px;
 	position: relative;
-	user-select: none;
 }
 
 #barBox{
@@ -60,9 +59,9 @@ body {
 	justify-content:center;
 	position: fixed;
 	vertical-align: middle;
-	opacity: 0%;
-	border-top: white solid 1px;;
+	border-top: white solid 1px;
 	border-bottom: white solid 1px;
+	visibility: hidden;
 }
 
 #intro { 
