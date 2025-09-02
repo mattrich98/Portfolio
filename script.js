@@ -1,4 +1,5 @@
-
+let burgerMenu = document.getElementById();
+let dropDownMenu = document.getElementById();
 
 
 
@@ -20,13 +21,19 @@ Todo list:
 
 -Use getelementbyid to select the burger menu
 
-variables needed:
+Variables needed:
 
 --need to store the getelementbyid burger menu in a variable, this will be what is adjusted.
 
 --maybe variable for the drop down menu, i plan to just put the text and html in it.
 
 --drop down menu will be made in javascript not HTML.
+
+Functions needed:
+
+---Dropdown menu function on click, drops rectangle with specified dimensions and links on that, perhaps making a div somehow.
+
+--May try and nest the navigation bar into itself, and make the menu appear on click, a lazy method of doing a burger menu
 
 
 
