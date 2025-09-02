@@ -10,7 +10,7 @@ body {
 
 .buttonNav {
 	color: white;
-	font-size: clamp(35px, 3vw, 17px);
+	font-size: clamp(55px, 3vw, 17px);
 	padding: 12px 11px 12px 10px;
 	text-decoration: none;
 }
@@ -18,6 +18,7 @@ body {
 .buttonNav #icon {
 	width: 70px;
 }
+
 
 .buttonNav:hover {
 	opacity: 60%;
@@ -33,6 +34,18 @@ body {
 	width: 100%; /*100vw is the same thing*/
 	height: 175px;
 	justify-content: center;
+	position: fixed;
+	vertical-align: middle;
+}
+
+.barBox{
+	background-color: green;
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
 	position: fixed;
 	vertical-align: middle;
 }
