@@ -3,13 +3,18 @@ let dropDownMenu = document.getElementById();
 
 
 function burgerMenuFunction(){
-}
-
-function burgerMenuOnClickToggle(){ //Click Burger Menu, which will connect to dropDownBox function
+//Group Functions at end works asynchronously
 
 }
 
-function dropDownBox(){
+function burgerMenuOnClickToggle(){ 
+//Click Burger Menu, which will connect to dropDownBox function
+
+}
+
+function dropDownBox(){ 
+//Create drop down box height and width with JavaScript CSS, onClick function makes it appear
+
 
 }
 
