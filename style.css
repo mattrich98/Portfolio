@@ -39,10 +39,10 @@ body {
 	vertical-align: middle;
 }
 #BurgerIcon{
-	
-	width: 100px;
-	height: 100px;
-	font-size: 90px;
+	/*background-color: #000000;*/
+	width: 150px;
+	height: 150px;
+	font-size: 130px;
 	text-align: center;
 	margin-right: 20px;
 	position: relative
