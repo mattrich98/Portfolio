@@ -66,6 +66,7 @@ body {
 	border-bottom: white solid 1px;
 	visibility: hidden;
 	opacity: 95%;
+	padding-bottom: 100vw;
 }
 
 #intro { 
