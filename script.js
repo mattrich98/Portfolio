@@ -18,3 +18,13 @@ else if (burgerMenu === true){
 // I will try to make a carousel menu with circle buttons you press.
 
 // or maybe two buttons per section and split it down the middle, highlighted in different colours.
+
+// What I may do is this: Add arrow buttoto side of about me blue part.
+//  it scrolls past exp -> job exp - > contact and recycle button to return to start.
+
+//the way this will work is -> for each section, the about me card will change to match other things.
+
+//Maybe i'll add a label on the left to symbolise what section like my CV
+
+
+//then I have projects on the bottom. That overtime will have a carousel.
