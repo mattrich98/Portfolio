@@ -50,7 +50,7 @@ body {
 	background-color: green;
 	margin-top: 175px;
 	height: 600px;
-	width: 1000px;
+	width: 100%;
 	text-align: center;
 	display: flex;
 	flex-direction:column;
