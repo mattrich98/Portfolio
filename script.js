@@ -22,7 +22,7 @@ else if (burgerMenu === true){
 
 // or maybe two buttons per section and split it down the middle, highlighted in different colours.
 
-// What I may do is this: Add arrow buttoto side of about me blue part.
+// What I may do is this: Add arrow button to side of about me blue part.
 //  it scrolls past exp -> job exp - > contact and recycle button to return to start.
 
 //the way this will work is -> for each section, the about me card will change to match other things.
