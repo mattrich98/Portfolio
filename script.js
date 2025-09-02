@@ -1,81 +1,14 @@
-let burgerDropBox = false;
-let burgerMenu = true;
-
-console.log(burgerMenu);
+let burgerMenu = true; // burger menu state closed
 
 function burgerMenuOnClickToggle(){ 
 burgerMenu = !burgerMenu; //toggles between true and false
 
-if(burgerDropBox == false){
+if (burgerMenu === false){
     document.getElementById("BurgerIcon").innerHTML = "!";
-    document.getElementById("barBox").style.opacity = 100 + "%";
-    console.log("testing")
-}
-else{
+    document.getElementById("barBox").style.opacity = 100; //dont need to add + "%" if it's added in CSS already
+} 
+else if (burgerMenu === true){
     document.getElementById("BurgerIcon").innerHTML = "≡";
-    console.log("testing2");
+    document.getElementById("barBox").style.opacity = 0 + "%";
 }
-
-console.log(burgerMenu);
 }
-
-
-function fanON() {
-  fanStatus = !fanStatus;
-  if (fanStatus == true) {
-    document.getElementById("fanButton").style.backgroundColor = "green";
-    document.getElementById("fan").style.opacity = 20 + "%";
-    sunStrength -= 3;
-    document.getElementById("sunPercent").innerHTML = sunStrength;
-  } else {
-    document.getElementById("fanButton").style.backgroundColor = "white";
-    document.getElementById("fan").style.opacity = 0 + "%";
-  }
-}
-////^^^^^^^^ this will be grouped into the function above, as it interacts with each other.
-
-function dropDownBox(){ 
-//Create drop down box height and width with JavaScript CSS, onClick function makes it appear
-
-
-}
-
-/*
-Todo list:
-
-(BASIC START)
-
--On click event listener needed for when clicking burger menu
-
--Burger menu open and drop down menu with height + width.
-
--Burger menu drop down menu needs links for navigation buttons
-
--On hover when burger menu pressed
-
-(BASIC END)
-
--Use getelementbyid to select the burger menu
-
-Variables needed:
-
---need to store the getelementbyid burger menu in a variable, this will be what is adjusted.
-
---maybe variable for the drop down menu, i plan to just put the text and html in it.
-
---drop down menu will be made in javascript not HTML.
-
-Functions needed:
-
----Dropdown menu function on click, drops rectangle with specified dimensions and links on that, perhaps making a div somehow.
-
----May try and nest the navigation bar into itself, and make the menu appear on click, a lazy method of doing a burger menu
-
----Once the above idea is created, then I may try and experiment with making it more proper.
-
-That should be it for now, and I'll see how things go.
-
-Maybe replace the inner.html text of the nav bar letters with an Open Menu button that switches between the two instead, somehow find a way to add an image
-- although having it in words makes it easier to know what it is
-*/
-
