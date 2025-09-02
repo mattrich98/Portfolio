@@ -12,3 +12,7 @@ else if (burgerMenu === true){
     document.getElementById("barBox").style.visibility = "hidden";
 }
 }
+
+//About me shifting section on click circle to change info
+
+// I will try to make a carousel menu with circle buttons you press.
