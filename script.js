@@ -16,3 +16,5 @@ else if (burgerMenu === true){
 //About me shifting section on click circle to change info
 
 // I will try to make a carousel menu with circle buttons you press.
+
+// or maybe two buttons per section and split it down the middle, highlighted in different colours.
