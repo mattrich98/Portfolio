@@ -16,7 +16,7 @@ body {
 }
 
 .buttonNav #icon {
-	width: 70px;
+	width: 90px;
 }
 
 
@@ -33,7 +33,7 @@ body {
 	display: flex;
 	width: 100%; /*100vw is the same thing*/
 	height: 175px;
-	justify-content: center;
+	justify-content: end;
 	position: fixed;
 	vertical-align: middle;
 }
