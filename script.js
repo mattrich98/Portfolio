@@ -14,30 +14,40 @@ else if (burgerMenu === true){
 }
 
 
-//NEW TODOS REMINDER:
+/*NEW TODOS REMINDER:
 
-//About me shifting section on click circle to change info
+About me shifting section on click circle to change info
 
-// I will try to make a carousel menu with circle buttons you press.
+ I will try to make a carousel menu with circle buttons you press.
 
-// or maybe two buttons per section and split it down the middle, highlighted in different colours.
+ or maybe two buttons per section and split it down the middle, highlighted in different colours.
 
-// What I may do is this: Add arrow button to side of about me blue part.
-//  it scrolls past exp -> job exp - > contact and recycle button to return to start.
+ What I may do is this: Add arrow button to side of about me blue part.
+  it scrolls past exp -> job exp - > contact and recycle button to return to start.
 
-//It may need a click next label, or next section -> so its recognisable easily.
+It may need a click next label, or next section -> so its recognisable easily.
 
-//the way this will work is -> for each section, the about me card will change to match other things.
+the way this will work is -> for each section, the about me card will change to match other things.
 
-//Maybe i'll add a label on the left to symbolise what section like my CV
+Maybe i'll add a label on the left to symbolise what section like my CV
 
 
-//then I have projects on the bottom. That overtime will have a carousel.
+then I have projects on the bottom. That overtime will have a carousel.
 
-//to write more information on the card, I may make it so the profile photo dissapears, then the about me
-//card extends upwards, so I can write more information about specific sections
+to write more information on the card, I may make it so the profile photo dissapears, then the about me
+card extends upwards, so I can write more information about specific sections
 
-//NEW TODOS END REMINDER
+
+NEW PLANS:
+
+Decided for the projects section, the <BK> and FWD>  button will just switch between sections,
+ill make images for the arrows saying next page and back somehow
+
+
+
+NEW TODOS END REMINDER*/
+
+
 
 
 
