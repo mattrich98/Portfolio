@@ -43,6 +43,10 @@ NEW PLANS:
 Decided for the projects section, the <BK> and FWD>  button will just switch between sections,
 ill make images for the arrows saying next page and back somehow
 
+Similar to Roblox, my plan may be this:
+
+-> I make a div (For the background), nest a div inside (the information), then use hidden/visibility css.
+-> Make different designs for each section, like a power point slide show.
 
 
 NEW TODOS END REMINDER*/
