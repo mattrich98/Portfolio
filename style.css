@@ -12,18 +12,35 @@
 
 
 /*Media query for desktop screens (Overall I understand that this resizes screens past 1024px width */
-@media screen and (min-width: 1080px){
-        html {
-            transform: scale(0.5);
-            transform-origin: top left; /* Anchor scaling from top-left */
-            width: 200%; /* Prevent content clipping */
-            height: 200%; /* Prevent content clipping */
-        }
+@media screen and (min-width: 1080px) {
+	.content-wrapper {
+		transform: scale(0.5);
+		transform-origin: top left;
+		/* Anchor scaling from top-left */
+		width: 200%;
+		/* Prevent content clipping */
+		height: 200%;
+		/* Prevent content clipping */
+	}
+	.nav-bar {
+		transform: scale(0.5);
+		/* Scale navbar to match content */
+		transform-origin: top;
+		width: 200%;
+		/* Counteract scaling to span viewport */
+	}
+	#barBox{
+		transform: scale(0.5);
+		/* Scale navbar to match content */
+		transform-origin: top;
+		width: 200%;
+		/* Counteract scaling to span viewport */
+	}
 }
 
 /* Media query for iPad Air (820 x 1180) in portrait and landscape */
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) {
-    html {
+    .content-wrapper {
         /* Adjust scale for iPad Air to fit content better */
         transform: scale(0.85); /* Adjust this value (e.g., 0.8 to 0.9) to fit your content */
         transform-origin: top left;
@@ -68,7 +85,9 @@ body {
 	justify-content: end;
 	position: fixed;
 	vertical-align: middle;
+	z-index: 1000; /* Keep above all content */
 }
+
 #BurgerIcon{
 	/*background-color: #000000;*/
 	width: 150px;
@@ -99,6 +118,7 @@ body {
 	visibility: hidden;
 	opacity: 95%;
 	padding-bottom: 100vw;
+	z-index: 1000; /* Keep above all content */
 }
 
 #intro { 
