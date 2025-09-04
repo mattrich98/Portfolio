@@ -12,7 +12,7 @@
 
 
 /*Media query for desktop screens (Overall I understand that this resizes screens past 1024px width */
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1181px) {
 	.content-wrapper {
 		transform: scale(0.5);
 		transform-origin: top left;
@@ -33,6 +33,7 @@
 		transform: scale(0.5);
 		/* Scale navbar to match content */
 		transform-origin: top;
+		top: -70px;
 		width: 200%;
 		/* Counteract scaling to span viewport */
 	}
