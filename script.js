@@ -53,6 +53,13 @@ NEW TODOS END REMINDER*/
 
 
 
+/*
+DESKTOP PLANS:
+
+If I resize the screen to 50%, it looks fairly decent, so maybe I can use a Meta tag for that
+
+*/
+
 
 
 
