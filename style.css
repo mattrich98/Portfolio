@@ -26,7 +26,7 @@
 		transform: scale(0.5);
 		/* Scale navbar to match content */
 		transform-origin: top;
-		width: 200%;
+		width: 200vw;
 		/* Counteract scaling to span viewport */
 	}
 	#barBox{
@@ -34,7 +34,7 @@
 		/* Scale navbar to match content */
 		transform-origin: top;
 		top: -70px;
-		width: 200%;
+		width: 200vw;
 		/* Counteract scaling to span viewport */
 	}
 }
