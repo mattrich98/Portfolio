@@ -2,7 +2,12 @@
 
 Portfolio Link: https://mattrich98.github.io/Portfolio/
 
+
+(Other information below)
+
 Work in progress portfolio with a lot of things taken and remade from my old one: https://matthewrichardson120.wixsite.com/portfolio
+
+--> I'll probably try css animations after getting everything fixed and all the main things added.
 
 -> It's big because the plan is to make the website mobile first. Then I'll try using rem sizes to make it look good on desktop too. + set max size for how big it can get, theres something about clamps not supporting older devices so I won't use those, 
 beside the fact that I still find it confusing to use.
