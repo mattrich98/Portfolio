@@ -1,6 +1,9 @@
 
 
-Portfolio Link: https://mattrich98.github.io/Portfolio/
+<h3>Portfolio Link: https://mattrich98.github.io/Portfolio/</h3>
+<br>
+<br>
+<br>
 <br>
 <hr>
 (Other information below)
