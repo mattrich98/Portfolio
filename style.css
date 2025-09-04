@@ -1,7 +1,38 @@
 * {
 	Margin: 0px;
+	padding: 0;
 	font-family: Arial;
 }
+
+/*Resizing for different devices, that I don't understand completely yet.
+
+--But overall I understand that you can make it look good for all screen sizes with CSS
+
+*/
+
+
+/*Media query for desktop screens (Overall I understand that this resizes screens past 1024px width */
+@media screen and (min-width: 1080px){
+        html {
+            transform: scale(0.5);
+            transform-origin: top left; /* Anchor scaling from top-left */
+            width: 200%; /* Prevent content clipping */
+            height: 200%; /* Prevent content clipping */
+        }
+}
+
+/* Media query for iPad Air (820 x 1180) in portrait and landscape */
+@media only screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+    html {
+        /* Adjust scale for iPad Air to fit content better */
+        transform: scale(0.85); /* Adjust this value (e.g., 0.8 to 0.9) to fit your content */
+        transform-origin: top left;
+        width: calc(100% / 0.85); /* Counteract scaling: 100% / 0.85 ≈ 117.65% */
+        height: calc(100% / 0.85);
+    }
+}
+
+/*Resizing for different devices, that I don't understand completely yet.*/
 
 body {
 	background-color: #080c34;
