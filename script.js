@@ -63,11 +63,11 @@ If I resize the screen to 50%, it looks fairly decent, so maybe I can use a Meta
 
 
 
+/*
 
+Maybe with CSS I'll try to do a hover on the project buttons instead somehow, add margins on the left and right to hide the sides
 
-
-
-
+*/
 
 
 
