@@ -22,8 +22,10 @@
 		height: 200%;
 		/* Prevent content clipping */
 	}
-
 }
+
+/*note, put everything in the content wrapper to not effect width scaling/*
+
 
 /* Media query for iPad Air (820 x 1180) in portrait and landscape */
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) {
