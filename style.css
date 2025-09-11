@@ -22,21 +22,7 @@
 		height: 200%;
 		/* Prevent content clipping */
 	}
-	.nav-bar {
-		transform: scale(0.5);
-		/* Scale navbar to match content */
-		transform-origin: top;
-		width: 200vw;
-		/* Counteract scaling to span viewport */
-	}
-	#barBox{
-		transform: scale(0.5);
-		/* Scale navbar to match content */
-		transform-origin: top;
-		top: -70px;
-		width: 200vw;
-		/* Counteract scaling to span viewport */
-	}
+
 }
 
 /* Media query for iPad Air (820 x 1180) in portrait and landscape */
