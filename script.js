@@ -1,4 +1,5 @@
 let burgerMenu = true; // burger menu state closed
+let educationMenu = true; // education menu closed
 
 function burgerMenuOnClickToggle(){ 
 burgerMenu = !burgerMenu; //toggles between true and false
@@ -13,6 +14,9 @@ else if (burgerMenu === true){
 }
 }
 
+function educationMenuOnClickToggle(){
+
+}
 
 
 
