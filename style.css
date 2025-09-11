@@ -14,6 +14,19 @@
 
 /*Media query for desktop screens (Overall I understand that this resizes screens past 1024px width */
 @media screen and (min-width: 1181px) {
+	.nav-bar {
+		transform: scaleY(0.5);
+		transform-origin: top left;
+		/* Anchor scaling from top-left */
+		width: 200%;
+		/* Prevent content clipping */
+		height: 200%;
+		/* Prevent content clipping */
+	}
+
+	#BurgerIcon{
+		transform: scaleX(0.5);
+	}
 	.content-wrapper {
 		transform: scale(0.5);
 		transform-origin: top left;
@@ -101,14 +114,13 @@ body {
 	line-height: 120px;
 	display: flex;
 	flex-direction:column;
-	justify-content:center;
+	justify-content:flex-start;
 	position: fixed;
 	vertical-align: middle;
 	border-top: white solid 1px;
 	border-bottom: white solid 1px;
 	visibility: hidden;
 	opacity: 95%;
-	
 	z-index: 1000; /* Keep above all content */
 }
 
