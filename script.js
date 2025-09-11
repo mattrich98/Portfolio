@@ -1,5 +1,8 @@
 let burgerMenu = true; // burger menu state closed
 let educationMenu = true; // education menu closed
+let selfStudiesMenu = true; // self studies menu closed
+let workExperienceMenu = true; // work experience menu closed
+let contactInfoMenu = true; // contact info menu closed
 
 function burgerMenuOnClickToggle(){ 
 burgerMenu = !burgerMenu; //toggles between true and false
