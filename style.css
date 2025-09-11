@@ -28,9 +28,12 @@
 		transform: scaleX(0.5);
 	}
 
-
+	#barBox{
+		overflow-y: scroll;
+	}
 
 	.buttonNav{
+		
 		transform: scale(0.5);
 	}
 
@@ -60,6 +63,7 @@
 
 	#barBox{
 		line-height: 120px;
+		overflow-y: scroll;
 	}
 
 }
@@ -133,6 +137,7 @@ body {
 	visibility: hidden;
 	opacity: 95%;
 	z-index: 1000; /* Keep above all content */
+	
 }
 
 #intro { 
