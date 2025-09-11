@@ -343,11 +343,14 @@ body {
 	min-width: 690px;
 	*/
 	text-align: center;
+	white-space: nowrap;
+	overflow-x: scroll;
 }
 
 .projectSquare {
-	height: 323px;
-	width: 323px;
+	height: 646px;
+	width: 646px;
+	
 }
 
 .projectSquare:hover {
