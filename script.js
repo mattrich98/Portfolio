@@ -35,6 +35,9 @@ else if (educationMenu === true){
 console.log(educationToggle())
 
 /*● <- toggle on click : ○ <- toggle off click */
+/*Display: flex/none may not work so may just change inner html of the about me divs text with javascript*/
+
+
 
 /*NEW TODOS REMINDER:
 
