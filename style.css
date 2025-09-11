@@ -298,6 +298,29 @@ body {
 	border-radius: 0px 0px 50px 50px;
 }
 
+.infoDiv {
+	color: rgb(255, 255, 255);
+    background-color: #000000;
+	font-size: 39px; /*font-size: clamp(3px, 3vw, 15.4px);*/
+	font-weight: 100;
+	text-align: center;
+	height: 745px;
+	width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+	padding-top: 20px;
+	box-shadow: 0px 3px 4px rgb(44, 44, 44);
+	border-radius: 0px 0px 50px 50px;
+	display: none; /*hides it for now, use javascript to show*/
+	/*display:flex; <-- will change to display flex;*/
+	flex-direction: column;
+	position: absolute; /*without pushing other things down, fixed not that*/
+  	left: 0; /* Allows margin: auto to center */
+  	right: 0; /* Allows margin: auto to center */
+}
+
+
 .projects {
 	/*background-color: #252529;*/
     background-image: linear-gradient(#10101a, #242950);
@@ -305,7 +328,6 @@ body {
 	border-bottom: solid grey 1px;
 	border-top: solid grey 1px;
 	color: white;
-	
 	min-width: 690px;
 	*/
 	text-align: center;
@@ -334,3 +356,4 @@ body {
 	font-weight: 600;
     justify-content: space-evenly;
 }
+

@@ -14,6 +14,8 @@ else if (burgerMenu === true){
 }
 
 
+
+
 /*NEW TODOS REMINDER:
 
 About me shifting section on click circle to change info
