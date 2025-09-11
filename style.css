@@ -204,7 +204,7 @@ body {
 
 .about {
 	background-image: url('images/backgroundoverlay.png'), url(''); /*need url */
-	background-size: 401px 400px, 400px 400px; /*overlay image sizes first, second is background behind overlay */
+	background-size: 1500px 1500px, 1500px 1500px; /*overlay image sizes first, second is background behind overlay */
 	background-repeat: repeat; /*to repeat the background after size given */
     background-blend-mode: multiply; /*multiply effect like clip studio/photoshop */
     background-position: center, center; /*both images are centered */
