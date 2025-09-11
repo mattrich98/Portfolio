@@ -4,6 +4,7 @@
 	font-family: Arial;
 }
 
+
 /*Resizing for different devices, that I don't understand completely yet.
 
 --But overall I understand that you can make it look good for all screen sizes with CSS
@@ -43,6 +44,7 @@
 body {
 	background-color: #080c34;
 	overflow-x: hidden;
+	height: 0px;
 }
 
 .buttonNav {
@@ -275,10 +277,11 @@ body {
 	border-bottom: solid grey 1px;
 	border-top: solid grey 1px;
 	color: white;
-	height: 350px;
+	
 	min-width: 690px;
 	*/
 	text-align: center;
+
 }
 
 .projectSquare {
