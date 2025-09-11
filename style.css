@@ -27,6 +27,13 @@
 	#BurgerIcon{
 		transform: scaleX(0.5);
 	}
+
+
+
+	.buttonNav{
+		transform: scale(0.5);
+	}
+
 	.content-wrapper {
 		transform: scale(0.5);
 		transform-origin: top left;
@@ -50,6 +57,11 @@
         width: calc(100% / 0.85); /* Counteract scaling: 100% / 0.85 ≈ 117.65% */
         height: calc(100% / 0.85);
     }
+
+	#barBox{
+		line-height: 120px;
+	}
+
 }
 
 /*Resizing for different devices, that I don't understand completely yet.*/
@@ -107,11 +119,10 @@ body {
 
 #barBox{
 	background-color: rgb(43, 43, 43);
-	margin-top: 140px;
-	height: 1270px;
+	margin-top: 70px;
+	height: 100%;
 	width: 100%;
 	text-align: center;
-	line-height: 120px;
 	display: flex;
 	flex-direction:column;
 	justify-content:flex-start;
