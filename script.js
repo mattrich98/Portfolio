@@ -18,7 +18,7 @@ function educationMenuOnClickToggle(){
 
 }
 
-/*◉ <- toggle on click : ○ <- toggle off click */
+/*● <- toggle on click : ○ <- toggle off click */
 
 /*NEW TODOS REMINDER:
 
