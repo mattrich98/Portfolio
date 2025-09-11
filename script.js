@@ -16,10 +16,23 @@ else if (burgerMenu === true){
     document.getElementById("barBox").style.visibility = "hidden";
 }
 }
+console.log("test");
 
-function educationMenuOnClickToggle(){
 
+function educationToggle(){
+educationMenu = !educationMenu;
+
+if (educationMenu === false){
+    document.getElementById("educationSelect").innerHTML = "●";
+    document.getElementById("infoDiv").style.display = "flex";
+} 
+else if (educationMenu === true){
+    document.getElementById("educationSelect").innerHTML = "○";
+    document.getElementById("infoDiv").style.display = "hidden";
 }
+    console.log("testing2")
+}
+console.log(educationToggle())
 
 /*● <- toggle on click : ○ <- toggle off click */
 

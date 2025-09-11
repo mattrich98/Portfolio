@@ -191,6 +191,7 @@ body {
 	display: flex;
 	justify-content: center;
 	vertical-align: middle;
+	border-top: white 1px solid;
 }
 
 #titleBorder #borderName{
@@ -213,6 +214,7 @@ body {
 	text-align: center;
 	background-image : #666666;
 	background-color: #2a3155;
+	
 }
 
 .about#expSection {
@@ -225,6 +227,7 @@ body {
 	/*width: clamp(400px, 74vw, 1202px);*/
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
 #profilePhoto {
@@ -322,6 +325,13 @@ body {
   	right: 0; /* Allows margin: auto to center */
 }
 
+#educationSelect{
+	color: white;
+	font-size: 150px;
+	font-weight: 500;
+	user-select: none;
+	cursor: pointer;
+}
 
 .projects {
 	/*background-color: #252529;*/
@@ -333,12 +343,11 @@ body {
 	min-width: 690px;
 	*/
 	text-align: center;
-
 }
 
 .projectSquare {
-	height: 313px;
-	width: 313px;
+	height: 323px;
+	width: 323px;
 }
 
 .projectSquare:hover {
