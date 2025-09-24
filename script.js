@@ -19,7 +19,7 @@ else if (burgerMenu === true){
 console.log("test");
 
 
-function educationToggle(){
+function educationToggle0(){
 educationMenu = !educationMenu;
 
 if (educationMenu === false){
@@ -32,7 +32,7 @@ else if (educationMenu === true){
 }
     console.log("testing2")
 }
-console.log(educationToggle())
+console.log(educationToggle0())
 
 /*● <- toggle on click : ○ <- toggle off click */
 /*Display: flex/none may not work so may just change inner html of the about me divs text with javascript*/
