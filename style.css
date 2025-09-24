@@ -333,6 +333,30 @@ body {
 	cursor: pointer;
 }
 
+#selfstudiesSelect{
+	color: white;
+	font-size: 150px;
+	font-weight: 500;
+	user-select: none;
+	cursor: pointer;
+}
+
+#workexperienceSelect{
+	color: white;
+	font-size: 150px;
+	font-weight: 500;
+	user-select: none;
+	cursor: pointer;
+}
+
+#contactinfoSelect{
+	color: white;
+	font-size: 150px;
+	font-weight: 500;
+	user-select: none;
+	cursor: pointer;
+}
+
 .projects {
 	/*background-color: #252529;*/
     background-image: linear-gradient(#10101a, #242950);

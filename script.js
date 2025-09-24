@@ -1,6 +1,6 @@
 let burgerMenu = true; // burger menu state closed
-let educationMenu = false; // education menu closed
-let selfStudiesMenu = true; // self studies menu closed
+let educationMenu = true; // education menu closed
+let selfstudiesMenu = true; // self studies menu closed
 let workExperienceMenu = true; // work experience menu closed
 let contactInfoMenu = true; // contact info menu closed
 
@@ -12,6 +12,7 @@ if (burgerMenu === false){
     document.getElementById("barBox").style.visibility = "visible";
     educationMenu = true;
     document.getElementById("educationSelect").innerHTML = "○";
+    document.getElementById("selfstudiesSelect").innerHTML = "○";
     document.getElementById("infoDiv").style.visibility = "hidden";
     document.getElementById("subTopAbout").innerHTML = "About me"
 } 
@@ -21,7 +22,7 @@ else if (burgerMenu === true){
 }
 }
 
-function educationToggle0(){
+function educationToggle(){
 educationMenu = !educationMenu;
 
 if (educationMenu === false){
@@ -40,3 +41,20 @@ else if (educationMenu === true){
 console.log(educationMenu); //Lately i understand loops and things like this, this console.log is outside the loop so I think of it like a contraption/device you put in a function"
 }
 
+function selfstudiesToggle(){
+selfstudiesMenu = !selfstudiesMenu;
+
+if (selfstudiesMenu === false){
+    document.getElementById("selfstudiesSelect").innerHTML = "●";
+    document.getElementById("infoDiv").style.visibility = "visible";
+    document.getElementById("subTopAbout").innerHTML = "Self Studies";
+    document.getElementById("infoDiv").innerHTML = "- other experience to include -> freecodecamp, mimo app, odin project, books used, coding youtube channels watched, harvard cs50 started, other, coding game with battles on computer";
+    document.getElementById("BurgerIcon").innerHTML = "≡";
+    document.getElementById("barBox").style.visibility = "hidden";
+} 
+else if (selfstudiesMenu === true){
+    document.getElementById("selfstudiesSelect").innerHTML = "○";
+    document.getElementById("infoDiv").style.visibility = "hidden";
+    document.getElementById("subTopAbout").innerHTML = "About me"
+}
+}
