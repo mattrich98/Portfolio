@@ -3,8 +3,7 @@ let educationMenu = true; // education menu closed
 let selfstudiesMenu = true; // self studies menu closed
 let workexperienceMenu = true; // work experience menu closed
 let contactinfoMenu = true; // contact info menu closed
-
-
+let recycleButton = true; // recycle menu closed (resets buttons to off)
 
 function burgerMenuOnClickToggle(){ 
 burgerMenu = !burgerMenu; //toggles between true and false
@@ -29,6 +28,36 @@ else if (burgerMenu === true){
     document.getElementById("barBox").style.visibility = "hidden";
 }
 }
+
+function recycleToggle(){
+recycleButton = !recycleButton
+
+if (recycleButton === false){
+    educationMenu = true;
+    selfstudiesMenu = true;
+    workexperienceMenu = true;
+    contactinfoMenu = true;
+    document.getElementById("educationSelect").innerHTML = "○";
+    document.getElementById("selfstudiesSelect").innerHTML = "○";
+    document.getElementById("workexperienceSelect").innerHTML = "○";
+    document.getElementById("contactinfoSelect").innerHTML = "○";
+    document.getElementById("infoDiv").style.visibility = "hidden";
+    document.getElementById("subTopAbout").innerHTML = "About me"
+}
+else{
+    educationMenu = true;
+    selfstudiesMenu = true;
+    workexperienceMenu = true;
+    contactinfoMenu = true;
+    document.getElementById("educationSelect").innerHTML = "○";
+    document.getElementById("selfstudiesSelect").innerHTML = "○";
+    document.getElementById("workexperienceSelect").innerHTML = "○";
+    document.getElementById("contactinfoSelect").innerHTML = "○";
+    document.getElementById("infoDiv").style.visibility = "hidden";
+    document.getElementById("subTopAbout").innerHTML = "About me"
+}
+}
+
 
 function educationToggle(){
 educationMenu = !educationMenu;
