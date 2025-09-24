@@ -58,3 +58,5 @@ else if (selfstudiesMenu === true){
     document.getElementById("subTopAbout").innerHTML = "About me"
 }
 }
+
+
