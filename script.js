@@ -24,11 +24,11 @@ educationMenu = !educationMenu;
 
 if (educationMenu === false){
     document.getElementById("educationSelect").innerHTML = "●";
-    document.getElementById("infoDiv").style.display = "flex";
+    document.getElementById("infoDiv").style.visibility = "visible";
 } 
 else if (educationMenu === true){
     document.getElementById("educationSelect").innerHTML = "○";
-    document.getElementById("infoDiv").style.display = "hidden";
+    document.getElementById("infoDiv").style.visibility = "hidden";
 }
     console.log("testing2")
 }
