@@ -20,7 +20,7 @@ if (burgerMenu === false){
     document.getElementById("educationSelect").innerHTML = "○";
     document.getElementById("selfstudiesSelect").innerHTML = "○";
     document.getElementById("workexperienceSelect").innerHTML = "○";
-    document.getElementById("contactInfoSelect").innerHTML = "○";
+    document.getElementById("contactinfoSelect").innerHTML = "○";
     document.getElementById("infoDiv").style.visibility = "hidden";
     document.getElementById("subTopAbout").innerHTML = "About me"
 } 
