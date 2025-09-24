@@ -10,6 +10,9 @@ burgerMenu = !burgerMenu; //toggles between true and false
 if (burgerMenu === false){
     document.getElementById("BurgerIcon").innerHTML = "×";
     document.getElementById("barBox").style.visibility = "visible";
+    educationMenu = true;
+    document.getElementById("educationSelect").innerHTML = "○";
+    document.getElementById("infoDiv").style.visibility = "hidden";
 } 
 else if (burgerMenu === true){
     document.getElementById("BurgerIcon").innerHTML = "≡";
@@ -31,7 +34,7 @@ if (educationMenu === false){
 else if (educationMenu === true){
     document.getElementById("educationSelect").innerHTML = "○";
     document.getElementById("infoDiv").style.visibility = "hidden";
-    document.getElementById("subTopAbout").innerHTML = "About me";
+}
+console.log(educationMenu);
+}
 
-}
-}
