@@ -12,9 +12,15 @@ burgerMenu = !burgerMenu; //toggles between true and false
 if (burgerMenu === false){
     document.getElementById("BurgerIcon").innerHTML = "×";
     document.getElementById("barBox").style.visibility = "visible";
+
     educationMenu = true;
+    selfstudiesMenu = true;
+    workexperienceMenu = true;
+    contactinfoMenu = true;
     document.getElementById("educationSelect").innerHTML = "○";
     document.getElementById("selfstudiesSelect").innerHTML = "○";
+    document.getElementById("workexperienceSelect").innerHTML = "○";
+    document.getElementById("contactInfoSelect").innerHTML = "○";
     document.getElementById("infoDiv").style.visibility = "hidden";
     document.getElementById("subTopAbout").innerHTML = "About me"
 } 
