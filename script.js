@@ -1,8 +1,8 @@
 let burgerMenu = true; // burger menu state closed
 let educationMenu = true; // education menu closed
 let selfstudiesMenu = true; // self studies menu closed
-let workExperienceMenu = true; // work experience menu closed
-let contactInfoMenu = true; // contact info menu closed
+let workexperienceMenu = true; // work experience menu closed
+let contactinfoMenu = true; // contact info menu closed
 
 function burgerMenuOnClickToggle(){ 
 burgerMenu = !burgerMenu; //toggles between true and false
@@ -58,5 +58,43 @@ else if (selfstudiesMenu === true){
     document.getElementById("subTopAbout").innerHTML = "About me"
 }
 }
+
+function workexperienceToggle(){
+workexperienceMenu = !workexperienceMenu;
+
+if (workexperienceMenu === false){
+    document.getElementById("workexperienceSelect").innerHTML = "●";
+    document.getElementById("infoDiv").style.visibility = "visible";
+    document.getElementById("subTopAbout").innerHTML = "Work Experience";
+    document.getElementById("infoDiv").innerHTML = "need section for work experience and other experiences.";
+    document.getElementById("BurgerIcon").innerHTML = "≡";
+    document.getElementById("barBox").style.visibility = "hidden";
+} 
+else if (workexperienceMenu === true){
+    document.getElementById("workexperienceSelect").innerHTML = "○";
+    document.getElementById("infoDiv").style.visibility = "hidden";
+    document.getElementById("subTopAbout").innerHTML = "About me"
+}
+}
+
+function contactinfoToggle(){
+contactinfoMenu = !contactinfoMenu;
+
+if (contactinfoMenu === false){
+    document.getElementById("contactinfoSelect").innerHTML = "●";
+    document.getElementById("infoDiv").style.visibility = "visible";
+    document.getElementById("subTopAbout").innerHTML = "Contact Info";
+    document.getElementById("infoDiv").innerHTML = "need section for safe contact info.";
+    document.getElementById("BurgerIcon").innerHTML = "≡";
+    document.getElementById("barBox").style.visibility = "hidden";
+} 
+else if (contactinfoMenu === true){
+    document.getElementById("contactinfoSelect").innerHTML = "○";
+    document.getElementById("infoDiv").style.visibility = "hidden";
+    document.getElementById("subTopAbout").innerHTML = "About me"
+}
+}
+
+
 
 
