@@ -248,7 +248,7 @@ body {
 	width: 220px;
 }
 
-.subTopAbout {
+#subTopAbout {
 	color: rgb(255, 255, 255);
     background-color: #0884dc;
 	font-size: 80px; /*font-size: clamp(6px, 6vw, 35px)*/

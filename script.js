@@ -1,5 +1,5 @@
 let burgerMenu = true; // burger menu state closed
-let educationMenu = true; // education menu closed
+let educationMenu = false; // education menu closed
 let selfStudiesMenu = true; // self studies menu closed
 let workExperienceMenu = true; // work experience menu closed
 let contactInfoMenu = true; // contact info menu closed
@@ -25,10 +25,12 @@ educationMenu = !educationMenu;
 if (educationMenu === false){
     document.getElementById("educationSelect").innerHTML = "●";
     document.getElementById("infoDiv").style.visibility = "visible";
+    document.getElementById("subTopAbout").innerHTML = "test";
 } 
 else if (educationMenu === true){
     document.getElementById("educationSelect").innerHTML = "○";
     document.getElementById("infoDiv").style.visibility = "hidden";
+    document.getElementById("subTopAbout").innerHTML = "About me";
 }
     console.log("testing2")
 }
