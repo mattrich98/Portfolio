@@ -13,6 +13,7 @@ if (burgerMenu === false){
     educationMenu = true;
     document.getElementById("educationSelect").innerHTML = "○";
     document.getElementById("infoDiv").style.visibility = "hidden";
+    document.getElementById("subTopAbout").innerHTML = "About me"
 } 
 else if (burgerMenu === true){
     document.getElementById("BurgerIcon").innerHTML = "≡";
