@@ -4,6 +4,8 @@ let selfstudiesMenu = true; // self studies menu closed
 let workexperienceMenu = true; // work experience menu closed
 let contactinfoMenu = true; // contact info menu closed
 
+
+
 function burgerMenuOnClickToggle(){ 
 burgerMenu = !burgerMenu; //toggles between true and false
 
@@ -57,6 +59,7 @@ else if (selfstudiesMenu === true){
     document.getElementById("infoDiv").style.visibility = "hidden";
     document.getElementById("subTopAbout").innerHTML = "About me"
 }
+console.log(selfstudiesMenu);
 }
 
 function workexperienceToggle(){
