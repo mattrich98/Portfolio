@@ -1,4 +1,5 @@
 let burgerMenu = true; // burger menu state closed
+let aboutMenu = true; // about menu closed
 let educationMenu = true; // education menu closed
 let selfstudiesMenu = true; // self studies menu closed
 let workexperienceMenu = true; // work experience menu closed
@@ -34,10 +35,12 @@ function recycleToggle(){
 recycleButton = !recycleButton
 
 if (recycleButton === false){
+    aboutMenu = true;
     educationMenu = true;
     selfstudiesMenu = true;
     workexperienceMenu = true;
     contactinfoMenu = true;
+    document.getElementById("aboutSelect").innerHTML = "○";
     document.getElementById("educationSelect").innerHTML = "○";
     document.getElementById("selfstudiesSelect").innerHTML = "○";
     document.getElementById("workexperienceSelect").innerHTML = "○";
@@ -46,10 +49,12 @@ if (recycleButton === false){
     document.getElementById("subTopAbout").innerHTML = "About me"
 }
 else{
+    aboutMenu = true;
     educationMenu = true;
     selfstudiesMenu = true;
     workexperienceMenu = true;
     contactinfoMenu = true;
+    document.getElementById("aboutSelect").innerHTML = "○";
     document.getElementById("educationSelect").innerHTML = "○";
     document.getElementById("selfstudiesSelect").innerHTML = "○";
     document.getElementById("workexperienceSelect").innerHTML = "○";
@@ -58,6 +63,26 @@ else{
     document.getElementById("subTopAbout").innerHTML = "About me"
 }
 }
+
+function aboutToggle(){
+aboutMenu = !aboutMenu;
+
+if (aboutMenu === false){
+    recycleToggle()
+    document.getElementById("aboutSelect").innerHTML = "●";
+    document.getElementById("infoDiv").style.visibility = "hidden";
+    document.getElementById("subTopAbout").innerHTML = "About me";
+    document.getElementById("BurgerIcon").innerHTML = "≡";
+    document.getElementById("barBox").style.visibility = "hidden";
+} 
+else if (aboutMenu === true){
+    document.getElementById("aboutSelect").innerHTML = "○";
+    document.getElementById("infoDiv").style.visibility = "hidden";
+    document.getElementById("subTopAbout").innerHTML = "About me"
+}
+console.log(aboutMenu);
+}
+
 
 
 function educationToggle(){
