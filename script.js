@@ -123,7 +123,7 @@ if (contactinfoMenu === false){
     document.getElementById("contactinfoSelect").innerHTML = "●";
     document.getElementById("infoDiv").style.visibility = "visible";
     document.getElementById("subTopAbout").innerHTML = "Contact Info";
-    document.getElementById("infoDiv").innerHTML = "need section for safe contact info.";
+    document.getElementById("infoDiv").innerHTML = "Email: matthew_richardson@ymail.com<br><br><hr><br>Location: Epsom and Ewell<br><br><hr><br>";
     document.getElementById("BurgerIcon").innerHTML = "≡";
     document.getElementById("barBox").style.visibility = "hidden";
 } 
