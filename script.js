@@ -131,7 +131,7 @@ if (workexperienceMenu === false){
     document.getElementById("workexperienceSelect").innerHTML = "●";
     document.getElementById("infoDiv").style.visibility = "visible";
     document.getElementById("subTopAbout").innerHTML = "Work Experience";
-    document.getElementById("infoDiv").innerHTML = "need section for work experience and other experiences.";
+    document.getElementById("infoDiv").innerHTML = "Web Designer<br>-<br>TWENTY4SEVENTRENDS, Contract<br>(Mar 2022 - Sep 2022)<br><br><hr><br>Heating Engineer Assistant<br>-<br>School Work Experience<br>(1 Week, 2014)<br><br><hr><br>";
     document.getElementById("BurgerIcon").innerHTML = "≡";
     document.getElementById("barBox").style.visibility = "hidden";
 } 
@@ -150,7 +150,7 @@ if (contactinfoMenu === false){
     document.getElementById("contactinfoSelect").innerHTML = "●";
     document.getElementById("infoDiv").style.visibility = "visible";
     document.getElementById("subTopAbout").innerHTML = "Contact Info";
-    document.getElementById("infoDiv").innerHTML = "Email: matthew_richardson@ymail.com<br><br><hr><br>Location: Epsom and Ewell<br><br><hr><br>";
+    document.getElementById("infoDiv").innerHTML = "Email: matthew_richardson@ymail.com<br><br><hr><br>Location: Epsom and Ewell<br><br><hr><br>Phone number and additional information on CV.<br><br><hr><br>";
     document.getElementById("BurgerIcon").innerHTML = "≡";
     document.getElementById("barBox").style.visibility = "hidden";
 } 
