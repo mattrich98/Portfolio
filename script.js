@@ -79,7 +79,6 @@ else if (aboutMenu === true){
     document.getElementById("infoDiv").style.visibility = "hidden";
     document.getElementById("subTopAbout").innerHTML = "About me"
 }
-console.log(aboutMenu);
 }
 
 aboutToggle() //activated button by default
@@ -101,7 +100,6 @@ else if (educationMenu === true){
     document.getElementById("infoDiv").style.visibility = "hidden";
     document.getElementById("subTopAbout").innerHTML = "About me"
 }
-console.log(educationMenu); //Lately i understand loops and things like this, this console.log is outside the loop so I think of it like a contraption/device you put in a function"
 }
 
 function selfstudiesToggle(){
@@ -121,7 +119,6 @@ else if (selfstudiesMenu === true){
     document.getElementById("infoDiv").style.visibility = "hidden";
     document.getElementById("subTopAbout").innerHTML = "About me"
 }
-console.log(selfstudiesMenu);
 }
 
 function workexperienceToggle(){
