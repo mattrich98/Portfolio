@@ -132,7 +132,3 @@ else if (contactinfoMenu === true){
     document.getElementById("subTopAbout").innerHTML = "About me"
 }
 }
-
-
-
-
