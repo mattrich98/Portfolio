@@ -64,6 +64,7 @@ function educationToggle(){
 educationMenu = !educationMenu;
 
 if (educationMenu === false){
+    recycleToggle()
     document.getElementById("educationSelect").innerHTML = "●";
     document.getElementById("infoDiv").style.visibility = "visible";
     document.getElementById("subTopAbout").innerHTML = "Education";
@@ -83,6 +84,7 @@ function selfstudiesToggle(){
 selfstudiesMenu = !selfstudiesMenu;
 
 if (selfstudiesMenu === false){
+    recycleToggle()
     document.getElementById("selfstudiesSelect").innerHTML = "●";
     document.getElementById("infoDiv").style.visibility = "visible";
     document.getElementById("subTopAbout").innerHTML = "Self Studies";
@@ -102,6 +104,7 @@ function workexperienceToggle(){
 workexperienceMenu = !workexperienceMenu;
 
 if (workexperienceMenu === false){
+    recycleToggle()
     document.getElementById("workexperienceSelect").innerHTML = "●";
     document.getElementById("infoDiv").style.visibility = "visible";
     document.getElementById("subTopAbout").innerHTML = "Work Experience";
@@ -120,6 +123,7 @@ function contactinfoToggle(){
 contactinfoMenu = !contactinfoMenu;
 
 if (contactinfoMenu === false){
+    recycleToggle()
     document.getElementById("contactinfoSelect").innerHTML = "●";
     document.getElementById("infoDiv").style.visibility = "visible";
     document.getElementById("subTopAbout").innerHTML = "Contact Info";
