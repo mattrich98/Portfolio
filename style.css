@@ -314,9 +314,9 @@ body {
 	user-select: none;
 	cursor: pointer;
 }
-#recycleSelect{
+#aboutSelect{
 	color: white;
-	font-size: 80px;
+	font-size: 150px;
 	font-weight: 500;
 	user-select: none;
 	cursor: pointer;
