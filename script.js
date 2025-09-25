@@ -29,6 +29,7 @@ else if (burgerMenu === true){
 }
 }
 
+//Plan -> try an make this function work in accordance with having more than 1 button set to false
 function recycleToggle(){
 recycleButton = !recycleButton
 
