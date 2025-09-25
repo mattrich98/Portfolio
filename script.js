@@ -83,7 +83,7 @@ else if (aboutMenu === true){
 console.log(aboutMenu);
 }
 
-
+aboutToggle() //activated button by default
 
 function educationToggle(){
 educationMenu = !educationMenu;
