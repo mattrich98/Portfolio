@@ -112,7 +112,7 @@ if (selfstudiesMenu === false){
     document.getElementById("selfstudiesSelect").innerHTML = "●";
     document.getElementById("infoDiv").style.visibility = "visible";
     document.getElementById("subTopAbout").innerHTML = "Self Studies";
-    document.getElementById("infoDiv").innerHTML = "- other experience to include -> freecodecamp, mimo app, odin project, books used, coding youtube channels watched, harvard cs50 started, other, coding game with battles on computer";
+    document.getElementById("infoDiv").innerHTML = "The Skills Network, Contract<br>(June 2024, August 2024)<br>-<br>Learnt various things such as the Software Development Life Cycle, Stake holders, uses of ai prompting, agile methodologies, experience with website builders, some basics of Python and little about SQL.<hr>The Odin Project<br>Solidified most fundamentals of HTML, CSS, JavaScript, Git and other.<hr>Mimo Phone App<br>Spoon feeds information, so I always learnt a lot from it.";
     document.getElementById("BurgerIcon").innerHTML = "≡";
     document.getElementById("barBox").style.visibility = "hidden";
 } 
