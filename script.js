@@ -13,10 +13,12 @@ if (burgerMenu === false){
     document.getElementById("BurgerIcon").innerHTML = "×";
     document.getElementById("barBox").style.visibility = "visible";
 
+    aboutMenu = false;
     educationMenu = true;
     selfstudiesMenu = true;
     workexperienceMenu = true;
     contactinfoMenu = true;
+    document.getElementById("aboutSelect").innerHTML = "●";
     document.getElementById("educationSelect").innerHTML = "○";
     document.getElementById("selfstudiesSelect").innerHTML = "○";
     document.getElementById("workexperienceSelect").innerHTML = "○";
