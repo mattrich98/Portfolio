@@ -150,7 +150,7 @@ if (contactinfoMenu === false){
     document.getElementById("contactinfoSelect").innerHTML = "●";
     document.getElementById("infoDiv").style.visibility = "visible";
     document.getElementById("subTopAbout").innerHTML = "Contact Info";
-    document.getElementById("infoDiv").innerHTML = "Email: matthew_richardson@ymail.com<br><br><hr><br>Location: Epsom and Ewell<br><br><hr><br>Phone number and additional information on CV.<br><br><hr><br>";
+    document.getElementById("infoDiv").innerHTML = "Email: matthew_richardson@ymail.com<br><br><hr><br>Location: Epsom and Ewell<br><br><hr><br>Phone number: 07715548877<br><br><hr><br>Additional information on CV.<br><br><hr><br>";
     document.getElementById("BurgerIcon").innerHTML = "≡";
     document.getElementById("barBox").style.visibility = "hidden";
 } 
