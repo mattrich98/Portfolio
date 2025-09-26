@@ -13,7 +13,7 @@ if (burgerMenu === false){
     document.getElementById("BurgerIcon").innerHTML = "×";
     document.getElementById("barBox").style.visibility = "visible";
 
-    aboutMenu = false;
+    aboutMenu = true;
     educationMenu = true;
     selfstudiesMenu = true;
     workexperienceMenu = true;
